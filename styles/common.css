@@ -1,0 +1,33 @@
+#page-hdr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hdr-logo{
+    display: inline-block;
+}
+
+.hdr-btns{
+    display: inline-block;
+}
+
+#title-text{
+    font-family: 'Montez', cursive;
+    color: slateblue;
+    padding:0px;
+    margin:0px;
+}
+
+#sub-text{
+    font-family: 'Ubuntu Mono', monospace;
+    padding:0px;
+    margin:0px;
+}
+.hdr-btn{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+}
