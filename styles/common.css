@@ -1,16 +1,25 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+
 #page-hdr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .hdr-logo{
     display: inline-block;
+    margin: 5px;
 }
 
 .hdr-btns{
     display: inline-block;
+    margin: 5px;
 }
 
 #title-text{
