@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
@@ -10,7 +11,7 @@
 </head>
 
 <body>
-    <!-- TODO: Include all your code for the header and home page here -->
+    <!-- Header -->
     <div id='page'>
         <div id='page-hdr'>
             <div class='hdr-logo'>
@@ -28,7 +29,7 @@
         </div>
     </div>
 
-    
+    <!-- Sign-In Model -->
     <div id="sign-in-info" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -52,6 +53,34 @@
         </div>
     </div>
 
+    <!-- Sign-Up Model -->
+    <div id="sign-up-info" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id='sign-up-close' class="close">&times;</span>
+                <h3 class="modal-title">Get Started</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label for="sign-up-name">Name</label>
+                    <input type="text" id="sign-up-name" placeholder="Enter your name" value=""
+                        required>
+                    <label for="sign-up-uname">Username</label>
+                    <input type="text" id="sign-up-uname" placeholder="Enter your username" value=""
+                        required>
+                    <label for="sign-up-passwd">Password</label>
+                    <input type="password" id="sign-up-passwd" placeholder="Enter your password"
+                        value="" required>
+                    <label for="sign-up-cnf-passwd">Confirm Password</label>
+                    <input type="password" id="sign-up-cnf-passwd" placeholder="Re-enter your password"
+                        value="" required>
+                    <button id='submit-sign-up' class='btn-submit' type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
     <script src='./scripts/common.js'></script>
     <script src='./scripts/index.js'></script>
 </body>
