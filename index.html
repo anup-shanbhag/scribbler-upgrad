@@ -2,9 +2,7 @@
 <html>
 
 <head>
-    <!-- TODO: Include Font Awesome file here -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- TODO: Include Google Fonts file here -->
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link href="./styles/common.css" rel="stylesheet">
@@ -29,6 +27,33 @@
             <button id='btn-new-post' class='bdy-btn'>Create Post</button>
         </div>
     </div>
+
+    
+    <div id="sign-in-info" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id='sign-in-close' class="close">&times;</span>
+                <h3 class="modal-title">Welcome Back!</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label for="sign-in-uname">Username</label>
+                    <input type="text" id="sign-in-uname" placeholder="Enter your username" value=""
+                        required>
+                    <label for="sign-in-passwd">Password</label>
+                    <input type="password" id="sign-in-passwd" placeholder="Enter your password"
+                        value="" required>
+                    <button id='submit-sign-in' class='btn-submit' type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                    <span>Not a member? <a href="#">Sign Up</a></span>
+            </div>
+        </div>
+    </div>
+
+    <script src='./scripts/common.js'></script>
+    <script src='./scripts/index.js'></script>
 </body>
 
 </html>
