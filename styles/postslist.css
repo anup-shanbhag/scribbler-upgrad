@@ -27,12 +27,13 @@ html,body{
     box-shadow: 10px 10px 8px darkgrey;
 }
 
-.posted-user {
+.post-owner {
     color: slategray;
     background-color: white;
     width: 20%;
     align-self: center;
     text-align: center;
+    padding: 0.25rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -57,7 +58,7 @@ html,body{
     max-height: 1.5em;
     line-height: 1.5em;
 }
-.post-details{
+.post-detail{
     overflow: hidden;
 }
 .card-text{
