@@ -1,3 +1,104 @@
 html,body{
     background-color: #ffeedd;
 }
+
+.card-grp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*width: 90%;*/
+    margin: auto;
+    padding: 0rem 0rem;
+}
+
+.post{
+    min-width: 40%;
+    min-height: 30%;
+    max-width: 40%;
+    max-height: 30%;
+    flex-direction: row;
+    border: none;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 4px 4px 2px darkgrey;
+    margin: 2rem;
+}
+
+.post:hover{
+    box-shadow: 10px 10px 8px darkgrey;
+}
+
+.posted-user {
+    color: slategray;
+    background-color: white;
+    width: 20%;
+    align-self: center;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.card-body {
+    position: relative;
+    width: 80%;
+    background-color: lightgray;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.card-title{
+    color: slategray;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.title-text{
+    float: left;
+    overflow: hidden;
+    margin-bottom: 1em;
+    max-height: 1.5em;
+    line-height: 1.5em;
+}
+.post-details{
+    overflow: hidden;
+}
+.card-text{
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1em;
+    max-height: 4.5em;
+    line-height: 1.5em;
+}
+.delete-post-icon{
+    /*float: right;*/
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.get-post-icon{
+    position: absolute;
+    bottom: 0.3rem;
+    right: 0.5rem;
+    cursor: pointer;
+
+}
+
+.modal-header {
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+.modal-body,.modal-footer{
+    display: block;
+    padding: 0.5rem;
+}
+  #btn-yes{
+    width: 80px;
+    float: left;
+  }
+  #btn-no{
+    width: 80px;
+    float: right;
+}
