@@ -22,6 +22,11 @@
     padding: 5px;
     margin: 8px;
     width: 110px;
-    text-align: center;
+    /*text-align: center;*/
+}
+
+.bdy-btn:hover, .bdy-btn:focus {
+  background-color:  rgb(180, 155, 41);
+  border-color: rgb(180, 155, 41);
 }
 

@@ -51,22 +51,31 @@ label {
     background-color: green;
     color: white;
 }
-
+#modal-sign-in > .modal-dialog, #modal-sign-up > .modal-dialog{
+    width: 30% !important;
+    height: 30% !important;
+}
 .modal-header {
-    margin: 0px 11px;
+    margin: 0rem 1rem;
     border-bottom: 1px lightgray groove;
+    padding: 0.5rem 1rem;
   }
   
   .modal-title {
-    color:rgb(99, 102, 105);    
+    color:rgb(99, 102, 105); 
   }
 
   .modal-body {
     color: black;
     }
-
+    .form-group  {
+        margin-bottom: 0.2rem;
+    }
+    .form-button {
+        margin-top: 1.5rem;
+    }
 .modal-footer {
         color: black;
         border: none;
-        align-self: center;
+        justify-content: center;
       }
