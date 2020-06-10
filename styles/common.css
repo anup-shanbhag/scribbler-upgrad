@@ -1,44 +1,72 @@
 html,body{
     height: 100%;
     margin: 0%;
-    overflow: hidden;
-}
-
-#page-hdr{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
+    overflow: auto;
 }
 
 .hdr-logo{
-    display: inline-block;
+    float: left;
     margin: 5px;
+    padding: 5px;
 }
 
 .hdr-btns{
-    display: inline-block;
+    float: right;
     margin: 5px;
+    padding: 5px;
 }
 
-#title-text{
+.home-pg-lnk:hover,.home-pg-lnk:visited,.home-pg-lnk:active,.home-pg-lnk:link{
+    text-decoration: none;
+    color: black;
+}
+
+#logo-text{
     font-family: 'Montez', cursive;
     color: slateblue;
     padding:0px;
     margin:0px;
+    font-weight: bolder;
 }
 
-#sub-text{
+#caption-text{
     font-family: 'Ubuntu Mono', monospace;
     padding:0px;
     margin:0px;
+    font-weight: lighter;
 }
-.hdr-btn{
-    background-color: blue;
-    padding: 5px;
-    color: white;
-    margin: 5px;
+.hdr-btn, hdr-btn:hover, .hdr-btn:focus{
+    padding: 7px;
+    margin: 7px;
     text-align: center;
-    width: 80px;
+    outline: none;
+    box-shadow: none;
 }
+
+label {
+    color: rgb(99, 102, 105);
+    font-weight: bold;
+}
+.btn-submit {
+    background-color: green;
+    color: white;
+}
+
+.modal-header {
+    margin: 0px 11px;
+    border-bottom: 1px lightgray groove;
+  }
+  
+  .modal-title {
+    color:rgb(99, 102, 105);    
+  }
+
+  .modal-body {
+    color: black;
+    }
+
+.modal-footer {
+        color: black;
+        border: none;
+        align-self: center;
+      }
