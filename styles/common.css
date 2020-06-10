@@ -6,16 +6,17 @@ html,body{
 
 .hdr-logo{
     float: left;
-    margin: 5px;
-    padding: 5px;
+    padding: 0.2rem;
 }
 
 .hdr-btns{
     float: right;
-    margin: 5px;
-    padding: 5px;
+    padding: 0.2rem;
 }
 
+.clear{
+    clear: both;
+}
 .home-pg-lnk:hover,.home-pg-lnk:visited,.home-pg-lnk:active,.home-pg-lnk:link{
     text-decoration: none;
     color: black;

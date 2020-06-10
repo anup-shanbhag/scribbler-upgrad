@@ -1,3 +1,10 @@
-$(document).ready(function(){
-    $("#page-hdr").load("./html/common.html");
-});
+if(window.location.pathname.endsWith("/")){
+    $(document).ready(function(){
+        $("#page-hdr").load("./html/common.html");
+    });
+}
+else{
+    $(document).ready(function(){
+        $("#page-hdr").load("../html/common.html");
+    });
+}
