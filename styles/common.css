@@ -72,9 +72,9 @@ label {
 #modal-sign-in .modal-header,
 #modal-sign-up .modal-header,
 #modal-new-post .modal-header {
-    margin: 0rem 1rem;
-    border-bottom: 1px lightgray groove;
-    padding: 0.5rem 1rem;
+    margin: 0;
+    border: none;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 #modal-sign-in .modal-title,
@@ -83,10 +83,19 @@ label {
     color: rgb(99, 102, 105);
 }
 
+
+#modal-sign-in .separator,
+#modal-sign-up .separator,
+#modal-new-post .separator {
+    color: rgb(99, 102, 105);
+    border-top: 1px lightgray groove;
+}
+
 #modal-sign-in .modal-body,
 #modal-sign-up .modal-body,
 #modal-new-post .modal-body {
     color: black;
+    padding: 0rem 1rem 1rem 1rem;
 }
 
 .form-group {
