@@ -1,5 +1,6 @@
 html,body{
     height: 100%;
+    width: 100%;
     margin: 0%;
     overflow: auto;
 }
@@ -56,17 +57,17 @@ label {
     width: 30% !important;
     height: 30% !important;
 }
-.modal-header {
+#modal-sign-in .modal-header, #modal-sign-up .modal-header, #modal-new-post .modal-header{
     margin: 0rem 1rem;
     border-bottom: 1px lightgray groove;
     padding: 0.5rem 1rem;
   }
   
-  .modal-title {
+  #modal-sign-in .modal-title, #modal-sign-up .modal-title, #modal-new-post .modal-title{
     color:rgb(99, 102, 105); 
   }
 
-  .modal-body {
+  #modal-sign-in .modal-body, #modal-sign-up .modal-body, #modal-new-post .modal-body{
     color: black;
     }
     .form-group  {
@@ -75,7 +76,7 @@ label {
     .form-button {
         margin-top: 1.5rem;
     }
-.modal-footer {
+    #modal-sign-in .modal-footer, #modal-sign-up .modal-footer, #modal-new-post .modal-footer{
         color: black;
         border: none;
         justify-content: center;

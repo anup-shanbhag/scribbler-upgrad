@@ -86,14 +86,16 @@ html,body{
 
 }
 
-.modal-header {
+#modal-confirm-dialog .modal-header {
     margin: 0;
     border: none;
     padding: 0;
   }
-.modal-body,.modal-footer{
+  #modal-confirm-dialog .modal-body, #modal-confirm-dialog .modal-footer{
     display: block;
     padding: 0.5rem;
+    border: none;
+    font-size: 1.3em;
 }
   #btn-yes{
     width: 80px;
