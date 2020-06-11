@@ -10,6 +10,8 @@ body {
 
 #owner {
     display: inline-block;
+    font-size: 1.25rem;
+    color: inherit;
 }
 
 #title {
@@ -36,6 +38,7 @@ body {
 
 .post-comments {
     width: 75%;
+    margin-top: 1.5rem;
 }
 
 #comment-text,

@@ -22,7 +22,7 @@ function likePost() {
 }
 
 function addComment(text) {
-    if (text.value.trim() !== 0) {
+    if (text.value.trim()) {
         commentsCount++;
         if (commentsCount === 0) {
             document.getElementById('comments').style.display = 'none';
@@ -49,8 +49,8 @@ function savePost() {
     document.getElementById('btn-edit').style.display = 'block';
     document.getElementById('btn-save').style.display = 'none';
     var title = document.getElementById('title'), content = document.getElementById('content');
-    title.contentEditable = true;
-    content.contentEditable = true;
+    title.contentEditable = false;
+    content.contentEditable = false;
     title.classList.remove('editable');
     content.classList.remove('editable');
 }
