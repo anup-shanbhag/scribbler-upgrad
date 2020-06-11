@@ -112,6 +112,11 @@ label {
     color: black;
     border: none;
     justify-content: center;
+    padding: 0rem;
+}
+
+#modal-sign-in .modal-footer span {
+    padding-bottom: 1rem;
 }
 
 .modal-open {

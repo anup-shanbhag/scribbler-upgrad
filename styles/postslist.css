@@ -105,12 +105,18 @@ body {
     font-size: 1.2em;
 }
 
+#modal-confirm-dialog .modal-body p {
+    margin-bottom: 0rem;
+}
+
 #btn-yes {
     width: 80px;
     float: left;
+    font-size: inherit;
 }
 
 #btn-no {
     width: 80px;
     float: right;
+    font-size: inherit;
 }
