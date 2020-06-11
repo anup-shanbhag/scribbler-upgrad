@@ -10,11 +10,13 @@ html,body{
 }
 
 #title{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
 #content{
     margin-top: 1rem;
+    padding: 0.5 rem;
 }
 #btn-edit{
     float: right;
@@ -44,4 +46,8 @@ html,body{
     padding: 0.3rem;
     margin: 0.4rem;
 
+}
+
+.editable{
+    border : 1px solid pink;
 }

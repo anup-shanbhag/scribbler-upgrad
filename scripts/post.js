@@ -38,9 +38,19 @@ function addComment(text){
 function editPost(){
     document.getElementById('btn-edit').style.display='none';
     document.getElementById('btn-save').style.display='block';
+    var title = document.getElementById('title'), content = document.getElementById('content');
+    title.contentEditable=true;
+    content.contentEditable=true;
+    title.classList.add('editable');
+    content.classList.add('editable');
 }
 
 function savePost(){
     document.getElementById('btn-edit').style.display='block';
     document.getElementById('btn-save').style.display='none';
+    var title = document.getElementById('title'), content = document.getElementById('content');
+    title.contentEditable=true;
+    content.contentEditable=true;
+    title.classList.remove('editable');
+    content.classList.remove('editable');
 }
