@@ -9,16 +9,39 @@ html,body{
     display: inline-block;
 }
 
+#title{
+    margin-bottom: 1.5rem;
+}
+
+#content{
+    margin-top: 1rem;
+}
 #btn-edit{
     float: right;
     display: block;
+    width: 65px;
 }
 
 #btn-save{
     float: right;
     display: none;
+    width: 65px;
 }
 
-#comment-input, .post-comments > p.h5{
+#comment-text, .post-comments > p.h5{
     margin-top: 2rem;
+}
+
+.comments{
+    display: none;
+    background-color: lightgrey;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.comment{
+    background-color: white;
+    padding: 0.3rem;
+    margin: 0.4rem;
+
 }

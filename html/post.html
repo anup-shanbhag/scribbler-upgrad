@@ -23,17 +23,17 @@
                 <button class="btn btn-danger btn-sm" id="btn-edit" onclick="editPost()">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
                 <button class="btn btn-danger btn-sm" id="btn-save" onclick="savePost()">Save <i class="fa fa-floppy-o" aria-hidden="true"></i></button>
                 <div class="clear"></div>
-                <p class="text-justify">Post Content</p>
+                <p class="text-justify" id="content">Post Content</p>
             </div>
             <div class="post-likes">
             <button class="btn btn-danger form-button" id="btn-like" onclick="likePost()"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</i></button>
             <p class="text-monospace col-form-label" id="likes">Be the first one to like this!</p>
             </div>
             <div class="post-comments">
-                <textarea class="form-control form-control" id="comment-input" rows="5" cols="15" placeholder="Leave a comment..."></textarea>
-                <button class="btn btn-danger form-button" id="btn-add-comment" onclick="addComment()">Comment</button>
+                <textarea class="form-control form-control" id="text" rows="5" cols="15" placeholder="Leave a comment..."></textarea>
+                <button class="btn btn-danger form-button" id="btn-add-comment" onclick="addComment(text)">Comment</button>
                 <p class="text-left h5">All Comments</p>
-                <div class="comments"></div>
+                <div class="comments" id="comments"></div>
             </div>
         </div>
     </div>
