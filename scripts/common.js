@@ -1,3 +1,3 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $("#page-hdr").load("../index.html #page-hdr > *");
 });

@@ -1,35 +1,36 @@
-body{
+body {
   background-image: url("../images/background.jpg");
   background-position: center;
   background-size: cover;
 }
 
-#page{
-    height: 100%;
-    margin: 0%;
+#page {
+  height: 100%;
+  margin: 0%;
 }
-#page-hdr{
+
+#page-hdr {
   width: 100%;
 }
-#page-bdy{
-    min-height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+
+#page-bdy {
+  min-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.bdy-btn{
-    background-color:  rgb(207, 181, 59);
-    border-color: rgb(207, 181, 59);
-    padding: 5px;
-    margin: 8px;
-    width: 110px;
-    /*text-align: center;*/
+.bdy-btn {
+  background-color: rgb(207, 181, 59);
+  border-color: rgb(207, 181, 59);
+  padding: 5px;
+  margin: 8px;
+  width: 110px;
 }
 
-.bdy-btn:hover, .bdy-btn:focus {
-  background-color:  rgb(180, 155, 41);
+.bdy-btn:hover,
+.bdy-btn:focus {
+  background-color: rgb(180, 155, 41);
   border-color: rgb(180, 155, 41);
 }
-

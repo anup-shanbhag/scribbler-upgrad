@@ -1,43 +1,51 @@
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0%;
     overflow: auto;
 }
 
-.hdr-logo{
+.hdr-logo {
     float: left;
     padding: 0.2rem;
 }
 
-.hdr-btns{
+.hdr-btns {
     float: right;
     padding: 0.2rem;
 }
 
-.clear{
+.clear {
     clear: both;
 }
-.home-pg-lnk:hover,.home-pg-lnk:visited,.home-pg-lnk:active,.home-pg-lnk:link{
+
+.home-pg-lnk:hover,
+.home-pg-lnk:visited,
+.home-pg-lnk:active,
+.home-pg-lnk:link {
     text-decoration: none;
     color: black;
 }
 
-#logo-text{
+#logo-text {
     font-family: 'Montez', cursive;
     color: slateblue;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     font-weight: bolder;
 }
 
-#caption-text{
+#caption-text {
     font-family: 'Ubuntu Mono', monospace;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     font-weight: lighter;
 }
-.hdr-btn, hdr-btn:hover, .hdr-btn:focus{
+
+.hdr-btn,
+hdr-btn:hover,
+.hdr-btn:focus {
     padding: 7px;
     margin: 7px;
     text-align: center;
@@ -49,36 +57,54 @@ label {
     color: rgb(99, 102, 105);
     font-weight: bold;
 }
+
 .btn-submit {
     background-color: green;
     color: white;
 }
-#modal-sign-in > .modal-dialog, #modal-sign-up > .modal-dialog{
+
+#modal-sign-in>.modal-dialog,
+#modal-sign-up>.modal-dialog {
     width: 30% !important;
     height: 30% !important;
 }
-#modal-sign-in .modal-header, #modal-sign-up .modal-header, #modal-new-post .modal-header{
+
+#modal-sign-in .modal-header,
+#modal-sign-up .modal-header,
+#modal-new-post .modal-header {
     margin: 0rem 1rem;
     border-bottom: 1px lightgray groove;
     padding: 0.5rem 1rem;
-  }
-  
-  #modal-sign-in .modal-title, #modal-sign-up .modal-title, #modal-new-post .modal-title{
-    color:rgb(99, 102, 105); 
-  }
+}
 
-  #modal-sign-in .modal-body, #modal-sign-up .modal-body, #modal-new-post .modal-body{
+#modal-sign-in .modal-title,
+#modal-sign-up .modal-title,
+#modal-new-post .modal-title {
+    color: rgb(99, 102, 105);
+}
+
+#modal-sign-in .modal-body,
+#modal-sign-up .modal-body,
+#modal-new-post .modal-body {
     color: black;
-    }
-    .form-group  {
-        margin-bottom: 0.2rem;
-    }
-    .form-button {
-        margin-top: 1.5rem;
-    }
-    #modal-sign-in .modal-footer, #modal-sign-up .modal-footer, #modal-new-post .modal-footer{
-        color: black;
-        border: none;
-        justify-content: center;
-      }
+}
 
+.form-group {
+    margin-bottom: 0.2rem;
+}
+
+.form-button {
+    margin-top: 1.5rem;
+}
+
+#modal-sign-in .modal-footer,
+#modal-sign-up .modal-footer,
+#modal-new-post .modal-footer {
+    color: black;
+    border: none;
+    justify-content: center;
+}
+
+.modal-open {
+    overflow: auto !important;
+}
