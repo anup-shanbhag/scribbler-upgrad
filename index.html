@@ -16,7 +16,102 @@
 <body>
     <!-- Header -->
     <div id='page'>
-        <div id='page-hdr'></div>
+        <div id='page-hdr'>
+            <div class='hdr-logo'>
+                <a href="/" id='home-pg-lnk' class="home-pg-lnk">
+                    <h1 id='logo-text'>ScriBBler</h1>
+                    <h6 id='caption-text'>Explore, Imagine, Create</h6>
+                </a>
+            </div>
+            
+            <div class='hdr-btns'>
+                <button id='btn-sign-up' class='btn btn-sm btn-primary hdr-btn' data-toggle="modal"
+                    data-target="#modal-sign-up">Sign Up</button>
+                <button id='btn-sign-in' class='btn btn-sm btn-primary hdr-btn' data-toggle="modal"
+                    data-target="#modal-sign-in">Sign
+                    In</button>
+            </div>
+            
+            <div class="clear"></div>
+            
+            <!-- Sign-In Model -->
+            <div id="modal-sign-in" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="sign-in-title">Welcome Back!</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-in-uname" class="col-form-label">Username</label>
+                                    <input type="text" id="sign-in-uname" class="form-control" placeholder="Enter your username"
+                                        value="" required>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-in-passwd" class="col-form-label">Password</label>
+                                    <input type="password" id="sign-in-passwd" class="form-control"
+                                        placeholder="Enter your password" value="" required>
+                                </div>
+                                <div class="form-button">
+                                    <button id='submit-sign-in' class='btn btn-submit btn-block' type="submit">Sign
+                                        In</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <span class="font-weight-bold">Not a member?&nbsp;<a href="#"
+                                        data-dismiss="modal" data-toggle="modal" data-target="#modal-sign-up">Sign
+                                        Up</a></span>
+            
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sign-Up Model -->
+            <div id="modal-sign-up" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="sign-up-title">Get Started</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-up-name" class="col-form-label">Name</label>
+                                    <input type="text" id="sign-up-name" class="form-control" placeholder="Enter your name" value=""
+                                        required>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-up-uname" class="col-form-label">Username</label>
+                                    <input type="text" id="sign-up-uname" class="form-control" placeholder="Enter your username"
+                                        value="" required>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-up-passwd" class="col-form-label">Password</label>
+                                    <input type="password" id="sign-up-passwd" class="form-control"
+                                        placeholder="Enter your password" value="" required>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label for="sign-up-cnf-passwd" class="col-form-label">Confirm Password</label>
+                                    <input type="password" id="sign-up-cnf-passwd" class="form-control"
+                                        placeholder="Re-enter your password" value="" required>
+                                </div>
+                                <div class="form-button">
+                                    <button id='submit-sign-up' class='btn btn-submit btn-block' type="submit">Sign
+                                        Up</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id='page-bdy'>
             <a href="./html/postslist.html"><button id='btn-all-posts' class='btn btn-primary bdy-btn'>All Posts</button></a>
             <button id='btn-new-post' class='btn btn-primary bdy-btn' data-toggle="modal"
