@@ -4,15 +4,6 @@ body {
   background-size: cover;
 }
 
-#page {
-  height: 100%;
-  margin: 0%;
-}
-
-#page-hdr {
-  width: 100%;
-}
-
 #page-bdy {
   min-height: 80%;
   display: flex;
